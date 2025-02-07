@@ -1,0 +1,13 @@
+# Página personalizada para error 404 (Página no encontrada)
+ErrorDocument 404 /PL/pages_error/error404.html
+
+# Página personalizada para error 403 (Prohibido)
+ErrorDocument 403 /PL/pages_error/error403.html
+
+# Página personalizada para error 500 (Error interno del servidor)
+ErrorDocument 500 /PL/pages_error/error500.html
+
+# Página personalizada para error 503 (Servicio no disponible)
+ErrorDocument 503 /PL/pages_error/error503.html
+
+Options -Indexes

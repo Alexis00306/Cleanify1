@@ -1,0 +1,40 @@
+/* Estilo para los títulos */
+
+body{
+    font-family: 'Roboto', sans-serif; /* Fuente personalizada */
+}
+
+/* Estilo para los títulos */
+h1, h2 {
+    font-family: 'Roboto', sans-serif; /* Fuente personalizada */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra en el texto */
+    font-weight: bold; /* Negrita */
+}
+
+/* Animación para los títulos */
+h1.animate__animated, h2.animate__animated {
+    animation: fadeInUp 1s ease-out;
+}
+
+/* Efecto de fade-in para el título principal */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Título principal (h1) */
+h1 {
+    color: #ffffff; 
+}
+
+/* Título secundario (h2) */
+h2 {
+    color: #1e3a8a; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Sombra para resaltar */
+}

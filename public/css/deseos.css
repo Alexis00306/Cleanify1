@@ -1,0 +1,21 @@
+
+.btn-heart {
+    background-color: transparent;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn-heart:hover {
+    transform: scale(1.2);
+}
+
+.btn-heart i {
+    color: #DC3545;
+    font-size: 1.5rem;
+}
