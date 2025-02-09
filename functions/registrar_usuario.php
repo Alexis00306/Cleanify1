@@ -4,7 +4,6 @@ require '../config/config.php';
 header('Content-Type: application/json');
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Asegúrate de recibir 'pass' en lugar de 'password'
     $nombre = trim($_POST['nombre']);
     $apellidos = trim($_POST['apellidos']);
     $correo = trim($_POST['correo']);
